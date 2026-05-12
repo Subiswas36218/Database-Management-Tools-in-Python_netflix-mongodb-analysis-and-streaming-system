@@ -1,0 +1,78 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "cast",
+      "country",
+      "country_list",
+      "date_added",
+      "description",
+      "director",
+      "duration",
+      "genre_list",
+      "listed_in",
+      "rating",
+      "release_year",
+      "show_id",
+      "title",
+      "type"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "cast": {
+        "bsonType": "string"
+      },
+      "country": {
+        "bsonType": "string"
+      },
+      "country_list": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        }
+      },
+      "date_added": {
+        "bsonType": "string"
+      },
+      "description": {
+        "bsonType": "string"
+      },
+      "director": {
+        "bsonType": "string"
+      },
+      "duration": {
+        "bsonType": [
+          "string",
+          "double"
+        ]
+      },
+      "genre_list": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        }
+      },
+      "listed_in": {
+        "bsonType": "string"
+      },
+      "rating": {
+        "bsonType": "string"
+      },
+      "release_year": {
+        "bsonType": "int"
+      },
+      "show_id": {
+        "bsonType": "string"
+      },
+      "title": {
+        "bsonType": "string"
+      },
+      "type": {
+        "bsonType": "string"
+      }
+    }
+  }
+}
