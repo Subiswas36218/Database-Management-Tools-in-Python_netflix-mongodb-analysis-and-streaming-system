@@ -28,9 +28,9 @@ The objective was to explore modern database technologies, analytical querying, 
 # 🗂️ Project Structure
 
 ```text
-├── updated_part1_mongodb_netflix_analysis.ipynb
+├── part1_netflix_database_analysis.ipynb
 ├── part2_netflix_messaging_system.ipynb
-├── netflix_titles (1).csv
+├── netflix_titles.csv
 ├── requirements.txt
 ├── Report.md
 └── README.md
@@ -198,7 +198,7 @@ Reason:
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/Subiswas36218/Database-Management-Tools-in-Python_netflix-mongodb-analysis-and-streaming-system
 ```
 
 ---
